@@ -25,6 +25,13 @@ Install `minikube`:
 
 ```sh
 brew cask install minikube
+minikube config set vm-driver hyperkit
+```
+
+Create a `minikube` cluster with:
+
+```sh
+minikube start
 ```
 
 Debugging:
