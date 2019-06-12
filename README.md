@@ -38,3 +38,9 @@ Debugging:
 
 If `minikube start` returns `machine does not exist`, run `minikube delete`
 
+TODO - fix this. Hyperkit won't work, so using virtualbox with:
+
+```sh
+minikube start -p minikube --disk-size 5g
+```
+
